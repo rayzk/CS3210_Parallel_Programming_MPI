@@ -97,9 +97,11 @@ __Meaning of parameters :__
 
 ---
 
+* __Sample code for *2nodes communication* in *[2nodes_msg_passing.c][code1_ref]*__
 
+* __Sample code for *3 nodes communication* in *[3nodes_msg_communication][code2_ref]*__
 
-
+	* `MPI_ANY_SOURCE` is used in 3nodes conmmunication resulting in unpredictable receiving order of msg
 
 
 [^1]: data type of MPI
@@ -110,4 +112,9 @@ __Meaning of parameters :__
 [mpi_docs_ref]:http://www.mpi-forum.org/docs/docs.html "MPI official documents reference"
 
 [openmpi_ref]:http://www.open-mpi.org/ "openmpi opensource website"
+
+[code1_ref]:https://github.com/rayzk/CS3210_Parallel_Programming_MPI/blob/master/2nodes_msg_passing.c
+
+[code2_ref]:https://github.com/rayzk/CS3210_Parallel_Programming_MPI/blob/master/3nodes_msg_passing.c
+
 
