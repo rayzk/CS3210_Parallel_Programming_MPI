@@ -14,6 +14,7 @@
 
 ### Overview
 
+---
 
 * Message-passing programming model:
 	* Based on distributed address space & processors with exclusively access local memory
@@ -27,12 +28,15 @@
 	* __PVM__ _(Parallel Virtual Machine)_ 
 
 
+---
+---
 
 
 
 
+### Part One: Introduction to MPI
 
-### Introduction to MPI
+---
 
 #### 1.Point-to-point communication
 

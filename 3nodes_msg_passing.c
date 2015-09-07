@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "mpi.h"
+/* afjkdafjdklf */
 
 void print(int rank, char msg[]);
 
