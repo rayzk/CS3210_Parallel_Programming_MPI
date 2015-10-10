@@ -39,7 +39,7 @@ int main (int argc, char **argv){
 	}
 
 	/* become one of the actual processes, depending on myid */
-	if (myid == 0){
+	if (myid == CORRDINATOR){
 		printf ("1 Coordinator and %d Workers\n", numWorkers);
 		printf ("gridSize : %d\n stripSize : %d\n numIters : %d\n", gridSize, stripSize, numIters);
 		Coordinator (numWorkers, stripSize, gridSize);
